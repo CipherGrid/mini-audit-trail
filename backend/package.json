@@ -1,0 +1,26 @@
+{
+  "name": "mini-audit-trail",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CipherGrid/mini-audit-trail#readme",
+  "bugs": {
+    "url": "https://github.com/CipherGrid/mini-audit-trail/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CipherGrid/mini-audit-trail.git"
+  },
+  "license": "ISC",
+  "author": "Priyanshu Singh",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
