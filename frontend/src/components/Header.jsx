@@ -13,7 +13,7 @@ function Header({ server, onRefresh, count }) {
             Mini Audit Trail
           </h1>
           <p className="text-sm text-gray-500">
-            Small, focused audit trail generator — React + Tailwind
+            Small, focused audit trail generator
           </p>
         </div>
       </div>
