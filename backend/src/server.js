@@ -6,7 +6,7 @@ import versionsRouter from "./routes/version.js";
 const app = express();
 
 const corsOptions = {
-  origin: [process.env.CLIENT_ORIGIN, "https://localhost:5173"],
+  origin: process.env.CLIENT_ORIGIN,
 };
 
 app.use(express.json({ limit: "16kb" }));
