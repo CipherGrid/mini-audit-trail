@@ -1,7 +1,7 @@
 import React from "react";
 import { Cloud, RefreshCw } from "lucide-react";
 
-function Header({ server, onRefresh, count }) {
+function Header({ onRefresh }) {
   return (
     <header className="flex items-center justify-between">
       <div className="flex items-center gap-4">
